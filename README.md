@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![social-links-profile-shots](https://github.com/user-attachments/assets/c8d67e32-39a5-4927-a054-373ccd85803a)
 
 ### Links
 
