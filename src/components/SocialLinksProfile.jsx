@@ -1,11 +1,11 @@
-import avatar from './assets/avatar-jessica.jpeg';
+import avatar from '../assets/avatar-jessica.jpeg';
 
 function SocialLinksProfile() {
   const socialLinks = [
-    { name: 'GitHub', url: 'https://github.com' },
+    { name: 'GitHub', url: 'https://www.github.com' },
     { name: 'Frontend Mentor', url: 'https://www.frontendmentor.io' },
     { name: 'LinkedIn', url: 'https://www.linkedin.com' },
-    { name: 'Twitter', url: 'https://twitter.com' },
+    { name: 'Twitter', url: 'https://www.twitter.com' },
     { name: 'Instagram', url: 'https://www.instagram.com' },
   ];
   return (
