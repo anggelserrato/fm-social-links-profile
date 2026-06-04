@@ -9,8 +9,8 @@ function SocialLinksProfile() {
     { name: 'Instagram', url: 'https://www.instagram.com' },
   ];
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center text-center text-white">
-      <article className="flex w-[327px] flex-col items-center rounded-xl bg-card-grey-800 p-card-300 md:w-[384px] md:p-card-500">
+    <main className="flex min-h-screen flex-col items-center justify-center px-4 text-center">
+      <article className="flex flex-col items-center rounded-xl bg-card-grey-800 p-card-300 text-white md:max-w-[384px] md:p-card-500">
         <figure>
           <img
             src={avatar}
@@ -18,13 +18,13 @@ function SocialLinksProfile() {
             className="h-22 w-22 rounded-full"
           />
         </figure>
-        <h1 className="pt-card-300 pb-card-50 text-2xl leading-[150%] font-semibold">
+        <h1 className="pt-card-300 pb-card-50 text-preset-1">
           Jessica Randall
         </h1>
-        <p className="pb-card-300 text-sm leading-[150%] font-bold text-card-green">
+        <p className="pb-card-300 text-preset-2-bold text-card-green">
           London, United Kingdom
         </p>
-        <p className="pb-card-300 text-sm leading-[150%]">
+        <p className="pb-card-300 text-preset-2">
           "Front-end developer and avid reader."
         </p>
         <nav aria-label="Social media links" className="w-full">
@@ -36,7 +36,7 @@ function SocialLinksProfile() {
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={`Visit Jessica's profile on ${link.name}`}
-                  className="block rounded-lg bg-card-grey-700 p-card-150 text-sm leading-[150%] font-bold transition-colors duration-300 hover:bg-card-green hover:text-card-grey-900"
+                  className="block w-69.75 rounded-lg bg-card-grey-700 p-card-150 text-preset-2-bold transition-colors duration-300 hover:bg-card-green hover:text-card-grey-900 md:w-76"
                 >
                   {link.name}
                 </a>
